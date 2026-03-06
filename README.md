@@ -1,26 +1,27 @@
-# Playervideo 
+# QtVideoPlayer - 基于 FFmpeg 的高性能多线程播放器
 
-这是一个基于 Qt 和 FFmpeg 开发的视频播放器。
+本项目是一款基于 **Qt 6** 与 **FFmpeg** 开发的视频播放引擎。采用多线程异步解码架构，深度优化了音视频同步算法，支持 4K 视频稳定播放。
 
-## 项目简介
-这是一个使用 Qt 框架和 FFmpeg 库开发的跨平台视频播放器，支持多种格式解码与播放。
+## 🛠 开发环境与依赖 (重要)
 
-## 如何编译与运行
+由于 FFmpeg 开发库文件较大，本仓库未包含其二进制文件。在尝试编译运行前，**请务必按照以下步骤配置环境**：
 
-由于本项目不包含大型第三方二进制库（如 FFmpeg 的 `.dll` 文件），在克隆本项目后，请按照以下步骤配置：
+### 1. 环境要求
+- **操作系统**：Windows (10/11)
+- **编译器**：MinGW 64-bit (建议与 Qt 版本配套)
+- **Qt 版本**：Qt 6.2 或更高版本
+- **FFmpeg 版本**：FFmpeg 6.x (Shared 或 Dev 版本)
 
-### 1. 环境准备
-*   **开发环境**: Qt 6.10.2 / MinGW 64-bit
-*   **依赖库**: FFmpeg (请确保下载与你的编译器对应的版本)
+### 2. FFmpeg 目录配置
+请前往 [FFmpeg 官网](https://ffmpeg.org/download.html) 或 [gyan.dev](https://www.gyan.dev/ffmpeg/builds/) 下载对应的 **Shared** 开发包，并解压至项目根目录下的 `3rdparty/ffmpeg` 文件夹中。
 
-### 2. 配置 FFmpeg
-你需要下载 FFmpeg 的开发包，并将其放入 `3rdparty/ffmpeg/` 目录下。项目结构应如下：
+**必须确保目录结构如下所示**：
 ```text
-playervideo/
+videoplayer/
 ├── 3rdparty/
 │   └── ffmpeg/
-│       ├── bin/      # 在此放入 FFmpeg 的 .dll 文件
-│       ├── include/  # 存放头文件
-│       └── lib/      # 存放 .lib / .a 库文件
-├── src/              # 你的源代码
-├── ...
+│       ├── bin/      # 存放 .dll 文件
+│       ├── include/  # 存放头文件 (.h)
+│       └── lib/      # 存放库文件 (.lib 或 .a)
+├── src/              # 源代码
+└── CMakeLists.txt
