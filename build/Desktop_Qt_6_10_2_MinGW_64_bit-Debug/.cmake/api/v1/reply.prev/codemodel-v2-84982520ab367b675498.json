@@ -1,0 +1,205 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-5f2c5b0f028fc565c82f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "video",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_aotstats-Debug-8abe1c903bf6925911d3.json",
+					"name" : "all_aotstats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-36940341081b1abf2d64.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-4fbbef769d422c1d1adf.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-e45c866720217bafb139.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-f6e69216dda4aa8f3838.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appvideo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appvideo-Debug-5a0b4941af152cba625a.json",
+					"name" : "appvideo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appvideo_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appvideo_autogen-Debug-11a6273d591e5fef5956.json",
+					"name" : "appvideo_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appvideo_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appvideo_autogen_timestamp_deps-Debug-2446320a58d5461b1168.json",
+					"name" : "appvideo_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appvideo_copy_qml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appvideo_copy_qml-Debug-a8311e6782c695260aba.json",
+					"name" : "appvideo_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appvideo_copy_res::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appvideo_copy_res-Debug-3fb0398eb3b4df22c8d7.json",
+					"name" : "appvideo_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appvideo_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appvideo_qmlimportscan-Debug-b0845d0e0978029e62dd.json",
+					"name" : "appvideo_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appvideo_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appvideo_qmllint-Debug-955bcce40d33cac8d456.json",
+					"name" : "appvideo_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appvideo_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appvideo_qmllint_json-Debug-3bb0e71508f22262c982.json",
+					"name" : "appvideo_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appvideo_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appvideo_qmllint_module-Debug-d7055682cede68a75ca3.json",
+					"name" : "appvideo_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appvideo_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appvideo_qmltyperegistration-Debug-ea80d131196a0fd243c2.json",
+					"name" : "appvideo_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_qmlls_build_ini_file::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_qmlls_build_ini_file-Debug-37a5a5f1f5190a9f7d9c.json",
+					"name" : "generate_qmlls_build_ini_file",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_appvideo_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_appvideo_aotstats_target-Debug-8f47c8408e46b2f5f0c3.json",
+					"name" : "module_appvideo_aotstats_target",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/86139/Documents/video/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug",
+		"source" : "C:/Users/86139/Documents/video"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
