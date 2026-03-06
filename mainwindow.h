@@ -19,7 +19,7 @@ struct AVCodecParameters;
 struct AVCodec;
 struct AVCodecContext;
 struct AVRational;
-// 【=======================================================】
+
 
 
 QT_BEGIN_NAMESPACE
