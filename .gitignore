@@ -1,27 +1,14 @@
 # --- 编译器和 IDE 生成的临时文件夹 ---
-# Qt 构建文件夹（非常重要，必须忽略）
 /build*/
 /bin/
 /debug/
 /release/
 /obj/
-
-# Visual Studio / VS Code 临时文件
 .vs/
 .vscode/
 .idea/
 *.user
 *.user.*
-
-# --- 二进制文件 (体积大，且无需上传) ---
-*.exe
-*.dll
-*.lib
-*.a
-*.so
-*.dylib
-*.pdb
-*.exp
 
 # --- 编译产生的目标文件 ---
 *.o
@@ -30,14 +17,24 @@
 *.qrc_*.cpp
 *.ui_*.h
 
-# --- 媒体资源 (根据你的实际情况) ---
-# 如果你的项目里有测试用的 mp4, avi, wav 等大文件，建议忽略
-*.mp4
+# --- 真正的二进制垃圾文件 ---
+# 忽略可执行文件和动态库
+*.exe
+*.dll
+*.so
+*.dylib
+
+# --- FFmpeg 特殊处理 ---
+# 忽略 FFmpeg 的 bin 目录下的动态库 (dll)，但保留 lib 和 include
+3rdparty/ffmpeg/bin/*.dll
+
+# --- 媒体资源 ---
+test.mp4
 *.avi
 *.mkv
 *.wav
 *.mp3
 
-# --- 操作系统生成的系统文件 ---
+# --- 系统文件 ---
 .DS_Store
 Thumbs.db

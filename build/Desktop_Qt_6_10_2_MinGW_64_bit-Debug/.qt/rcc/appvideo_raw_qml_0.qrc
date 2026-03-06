@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/qt/qml/video/">
-    <file alias="Main.qml">C:/Users/86139/Documents/video/Main.qml</file>
-  </qresource>
-</RCC>
-
